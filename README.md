@@ -12,7 +12,7 @@ Works when images are yet in cache.
 ```javascript
 $('#container img')
 	.onImgsLoaded(function() {
-		// Here this is the DOM elements array containing the images from the '#container img' selector
+		// Here `this` is the DOM elements array containing the images from the '#container img' selector
 		$(this)
 			.each(function() {
 				...

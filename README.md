@@ -15,7 +15,7 @@ $('#container img')
 		// Here `this` is the DOM elements array containing the images from the '#container img' selector
 		$(this)
 			.each(function() {
-				...
+				// ...
 			});
 	});
 ```

@@ -1,10 +1,11 @@
 # jQuery onImgsLoaded
 
-This tiny plugin that's just a simple solution to the "Damnit the images where in cache" or "Why doesn't Chrome knows the size of my image ?" question.
+This is a tiny plugin that's just a simple solution to the "Damnit the images where in cache" or "Why doesn't Chrome knows the size of my image ?" issue
 
 ## What it does
 
-It ensures all images
+It ensures all images are loaded before executing the function you pass it as a callback.
+Works when images are yet in cache.
 
 ## Usage
 
